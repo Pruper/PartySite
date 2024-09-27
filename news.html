@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Updates</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="icon" type="image/x-icon" href="/images/disc.ico">
+    <style>
+        .blog-post {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            position: relative;
+        }
+
+        .full-article {
+            display: none;
+            margin-top: 10px;
+        }
+
+        .read-more {
+            background-color: #99619E;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .fade {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+            opacity: 0;
+        }
+
+        .fade.expanded {
+            max-height: 500px;
+            /* Adjust this to the maximum height you expect */
+            opacity: 1;
+            transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="content">
+        <h1>News & Updates</h1>
+        <p>Stay informed with the latest news, updates, and events from our party.</p>
+
+        <div class="blog-page">
+            <div class="blog-container">
+                <article class="blog-post">
+                    <h2>Constant Uncertainty - Time to End Government Shutdowns</h2>
+                    <p class="date">Posted on: September 25th, 2024</p>
+                    <img src="images/blog_image_0.png" height="200px" alt="Description of image"
+                        class="centered post-image">
+                    <div class="post-content">
+                        <p>In recent years, American citizens have become all too familiar with the disruptive and
+                            chaotic cycle of government shutdowns. These unnecessary standoffs not only hinder vital
+                            services but also undermine the trust of the public in our political system.</p>
+                        <div class="full-content">
+                            <p>"It's not a good thing when I see the news of an impending shutdown, and I'm not even
+                                surprised," a concerned citizen told a Renewal Party spokesperson recently. These words
+                                ring all too true and put on full display the blatant failures of a two-party duopoly.
+                            </p>
+                            <p>We believe that it's time for a new approach through a multiparty system, which allows
+                                for more robust coalitions to form and may help avoid the constant political deadlock
+                                that seems inevitable year after year.</p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="centered read-more" onclick="toggleContent(this)">Read More</a>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2>Renewal Party Leading in Several Municipal Polls</h2>
+                    <p class="date">Posted on: September 17th, 2024</p>
+                    <img src="images/blog_image_1.png" height="200px" alt="Description of image"
+                        class="centered post-image">
+                    <div class="post-content">
+                        <p>In a welcome turn of events, the Renewal Party has emerged as a frontrunner in several
+                            municipal races all over the country, signaling a potential shift in the political landscape
+                            as local elections approach.</p>
+                        <div class="full-content">
+                            <p>Polls conducted by major research firms reveal that in several locations across the
+                                country, Renewal Party candidates' polling has surged by up to double digits.
+                                Particularly notably in Fairfax, Virginia, polling shows a Renewal candidate leading an
+                                incumbent by a staggering 15 points, at 45 percent to 30 percent.</p>
+                            <p>Several factors may be contributing to the party's rise in popularity, such as
+                                candidate's focus on local issues, the growing public dissatisfaction with the current
+                                two-party duopoly, and endorsements from local leaders and organizations.</p>
+                            <p>"The race is far from over," said Alex Jones, a manager for the Renewal Party in
+                                Virginia. "We expect our opponents to intensify their campaings as voters prepare to
+                                head to the polls."</p>
+                            <p>Clearly, the Renewal Party's strong performance in polling suggests a changing political
+                                landscape as voters become more inspired to abandon the traditional two party system. As
+                                we move closer to election day, we will see if we can achieve a historic victory.</p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="centered read-more" onclick="toggleContent(this)">Read More</a>
+                </article>
+
+                <article class="blog-post">
+                    <h2>Reassessing the Legacy of Chernobyl</h2>
+                    <p class="date">Posted on: August 30th, 2024</p>
+                    <img src="images/blog_image_2.png" height="200px" alt="Description of image"
+                        class="centered post-image">
+                    <div class="post-content">
+                        <p>Nuclear energy, one of the Renewal Party's major policy points, has long been a controversial
+                            subject, sparking debate about its safety, efficiency, and environmental impact. One event
+                            often pointed to by critics of nuclear energy is the Chernobyl disaster of 1986.</p>
+                        <div class="full-content">
+                            <p>The Chernobyl disaster released large amounts of radioactive material into the
+                                environment, leading to evacuations and long-term exclusion zones. Studies have shown,
+                                however, that the environmental damage was largely contained. Many experts were
+                                surprised at the natural recovery of the ecosystem.</p>
+                            <p>Chernobyl's true legacy lies not in its environmental fallout, but in the public
+                                perception of nuclear energy, scaring many away from the idea and overshadowing its
+                                potential benefits, such as low greenhouse gas emissions and the ability to generate
+                                large amounts of energy with minimal environmental impact.</p>
+                            <p>Contrasting heavily with fears generated by the disaster, modern nuclear technology has
+                                seen significant evolution since 1986. Modern nuclear reactors are designed with
+                                advanced safety features and many regulations govern their operation. Many experts argue
+                                that the benefits of nuclear energy—such as its role in combating climate
+                                change—outweigh the risks, especially when compared to fossil fuels.</p>
+                            <p>Moving forward, the Renewal Party seeks to reform the narrative surrounding nuclear
+                                energy. Education and transparent communication about safety measures and the actual
+                                environmental impacts are vital to restoring public trust. By addressing the myths that
+                                stemmed from Chernobyl, we can work towards a future where nuclear energy is recognized
+                                for its potential as a safe and sustainable energy source, crucial for achieving our
+                                climate goals.</p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="centered read-more" onclick="toggleContent(this)">Read More</a>
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>
